@@ -153,10 +153,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 </head>
 <body>
+    <center>
     <h1>Update User Info</h1>
+    </center>
 
     <!-- Update Name Form -->
-    <h2>Update Name</h2>
+     <center>
+     <h2>Update Name</h2>
+     </center>
     <form method="POST">
         <label for="new_name">New Name:</label>
         <input type="text" id="new_name" name="new_name" required><br>
@@ -169,7 +173,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 
     <!-- Update Password Form -->
-    <h2>Update Password</h2>
+   <center>
+   <h2>Update Password</h2>
+   </center>
     <form method="POST">
         <label for="new_password">New Password:</label>
         <input type="password" id="new_password" name="new_password" required><br>
